@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "displayName": "Socials",
+    "icon": "broadcast-tower",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Linkedin": {
+      "type": "string"
+    },
+    "LinkedinUrl": {
+      "type": "string"
+    },
+    "Whatsapp": {
+      "type": "string"
+    },
+    "WhatsappUrl": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "EmailUrl": {
+      "type": "string"
+    }
+  }
+}

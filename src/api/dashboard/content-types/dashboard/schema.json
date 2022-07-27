@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "dashboards",
+  "info": {
+    "singularName": "dashboard",
+    "pluralName": "dashboards",
+    "displayName": "Dashboard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "MainTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "MainDescription": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Skills": {
+      "displayName": "Skills",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "skills.skills"
+    },
+    "Social": {
+      "displayName": "Socials",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "social.socials"
+    }
+  }
+}

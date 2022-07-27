@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_loader_words_loader_words",
+  "info": {
+    "displayName": "LoaderWords",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Word": {
+      "type": "string"
+    }
+  }
+}

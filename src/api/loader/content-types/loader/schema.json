@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "loaders",
+  "info": {
+    "singularName": "loader",
+    "pluralName": "loaders",
+    "displayName": "Loader",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Words": {
+      "displayName": "LoaderWords",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "loader-words.loader-words"
+    }
+  }
+}
